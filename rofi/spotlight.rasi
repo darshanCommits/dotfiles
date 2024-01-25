@@ -1,0 +1,99 @@
+/*******************************************************************************
+ * MACOS SPOTLIGHT LIKE DARK THEME FOR ROFI 
+ * User                 : LR-Tech               
+ * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ *******************************************************************************/
+
+* {
+
+  bg0: #0D1117ff;
+  bg1: #7E7E7E00;
+  bg2: #FF4734d6;
+
+  fg0: #DEDEDE;
+  fg1: #FFFFFF;
+  fg2: #DEDEDE80;
+
+  background-color: transparent;
+  text-color: @fg0;
+
+  margin: 0;
+  padding: 0;
+  spacing: 0;
+}
+
+window {
+  padding: 20px;
+  background-color: @bg0;
+  border: 2px;
+  border-color: #D83E2F;
+  location: center;
+  width: 640;
+  border-radius: 0;
+}
+
+inputbar {
+  padding: 12px;
+  spacing: 12px;
+  children: [ entry];
+}
+
+icon-search {
+  expand: true;
+  filename: "search";
+  size: 28px;
+}
+
+icon-search,
+entry,
+element-icon,
+element-text {
+  vertical-align: 0.5;
+}
+
+entry {
+  placeholder: "Search";
+  placeholder-color: @fg2;
+}
+
+message {
+  border: 2px 0 0;
+  border-color: @bg1;
+  background-color: @bg1;
+}
+
+textbox {
+  padding: 8px 24px;
+}
+
+listview {
+  lines: 10;
+  columns: 1;
+  fixed-height:false;
+  height : 100%;
+}
+
+element {
+  padding: 8px 16px;
+  spacing: 16px;
+  background-color: transparent;
+}
+
+element normal active {
+  text-color: @bg2;
+}
+
+element selected normal,
+element selected active {
+  border: 2px;
+  border-color: #D83E2F;
+  text-color: @fg1;
+}
+
+element-icon {
+  size: 1em;
+}
+
+element-text {
+  text-color: inherit;
+}

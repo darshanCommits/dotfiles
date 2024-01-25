@@ -1,0 +1,25 @@
+[Default Applications]
+text/plain=leafpad.desktop
+application/zip=org.gnome.FileRoller.desktop
+application/x-mimearchive=brave-browser.desktop
+image/png=feh.desktop
+application/xml=leafpad.desktop
+text/html=brave-browser.desktop
+x-scheme-handler/mailto=brave-browser.desktop
+x-scheme-handler/http=brave-browser.desktop
+x-scheme-handler/https=brave-browser.desktop
+x-scheme-handler/about=brave-browser.desktop
+x-scheme-handler/unknown=brave-browser.desktop
+x-scheme-handler/postman=Postman.desktop
+image/jpeg=feh.desktop
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop
+
+[Added Associations]
+text/plain=userapp-vim-1MGU91.desktop;geany.desktop;userapp-nano-YKAU81.desktop;leafpad.desktop;
+application/zip=thunar.desktop;org.gnome.FileRoller.desktop;
+application/x-mimearchive=brave-browser.desktop;
+image/png=feh.desktop;
+application/xml=featherpad.desktop;xed.desktop;org.xfce.mousepad.desktop;userapp-nano-YKAU81.desktop;userapp-hx-U1JN91.desktop;leafpad.desktop;
+text/html=leafpad.desktop;
+image/jpeg=feh.desktop;
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
