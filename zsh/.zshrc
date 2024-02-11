@@ -1,4 +1,3 @@
-source $ZDOTDIR/.zshenv.zsh
 source $ZDOTDIR/config.zsh
 source $ZDOTDIR/prompt.zsh
 source $ZDOTDIR/binds.zsh
@@ -9,3 +8,5 @@ source $ZDOTDIR/functions.zsh
 
 # bun completions
 [ -s "/home/greeed/.bun/_bun" ] && source "/home/greeed/.bun/_bun"
+
+[ -f "/home/greeed/.ghcup/env" ] && source "/home/greeed/.ghcup/env" # ghcup-env

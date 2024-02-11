@@ -9,10 +9,12 @@ alias ...='cd ../..'
 alias wezterm='env -u WAYLAND_DISPLAY wezterm'
 alias pdf='zathura'
 
-alias ls='eza -xF --icons'
-alias l='eza -aF --icons --group-directories-first'
-alias la='eza --icons -1 -lFh --group-directories-first --git --time-style=relative'
-alias tree='eza -T --level=2 --icons'
+# alias ls='eza -xF --icons'
+# alias l='eza -aF --icons --group-directories-first'
+alias ls='eza -g --icons --header --group-directories-first';
+alias la='eza -lag --icons --header --group-directories-first';
+alias lr='eza -Tg -L 2 --icons --header --group-directories-first';
+alias lR='eza -Tg --icons --header --group-directories-first';
 
 alias mkdir='mkdir -pv'
 alias mount='mount |column -t'

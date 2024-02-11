@@ -25,7 +25,7 @@
 "punctuation" = "overlay2"
 "punctuation.special" = "sky"
 
-"keyword" = { fg = "red", modifiers = [""] }
+"keyword" = { fg = "red" }
 "keyword.storage.modifier.ref" = "red"
 "keyword.control.conditional" = { fg = "mauve", modifiers = ["italic"] }
 

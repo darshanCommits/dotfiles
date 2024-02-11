@@ -2,6 +2,10 @@
 command = "emmet-language-server"
 args = ["--stdio"]
 
+[language-server.hls]
+command = "haskell-language-server-wrapper"
+args = ["--lsp"]
+
 [language-server.tailwindcss-html]
 command = "hx-tw"
 args = ["--stdio"]
@@ -33,6 +37,10 @@ name = "php"
 file-types = ["php"]
 language-servers = [ "tailwindcss-html","emmet-language-server", "phpP" ]
 
+# [[language]]
+# name = "haskell"
+# file-types = ["hs"]
+# language-servers = ["hls"]
 
 # biome official 
 

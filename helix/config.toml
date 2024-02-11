@@ -14,7 +14,8 @@ display-inlay-hints = true
 
 [editor.indent-guides]
 render = true
-character = "┊"
+character = "│"
+# separator = "┊"
 
 [editor.cursor-shape]
 insert = "bar"
@@ -47,4 +48,4 @@ X = "extend_line_above"
 
 [keys.normal.space]
 "q" = ":q"
-"/" = [":pipe-to wezterm cli split-pane -- helix-live-grep"]
+# "/" = [":pipe-to wezterm cli split-pane -- helix-live-grep"]
